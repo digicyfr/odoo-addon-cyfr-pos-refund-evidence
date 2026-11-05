@@ -16,4 +16,4 @@ Sprawy odwołują się do natywnych zamówień i pozycji; nie kopiują danych kl
 
 Jest to kolejka przeglądu operacyjnego, a nie rejestr odporny na zmiany. Uprawnieni użytkownicy POS mogą poprawić dowody, a standardowe uprawnienia mogą pozwalać na usunięcie zamówienia wraz ze sprawą.
 
-Dane demonstracyjne zawierają trzy powody dla głównej firmy. Testy tworzą syntetyczne zwroty pełne, częściowe i z wieloma źródłami. Trwałych demonstracyjnych sesji, zamówień ani drugiej firmy nie instalujemy, aby odinstalowanie było czyste. Zależność: `point_of_sale`; licencja LGPL-3; wersja `19.0.1.0.0`.
+Dane demonstracyjne zawierają trzy powody dla głównej firmy. Testy tworzą syntetyczne zwroty pełne, częściowe i z wieloma źródłami. Trwałych demonstracyjnych sesji, zamówień ani drugiej firmy nie instalujemy, aby odinstalowanie było czyste. Zależność: `point_of_sale`; licencja LGPL-3; wersja `19.0.1.0.1`.
