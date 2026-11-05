@@ -1,11 +1,12 @@
 {
     "name": "POS Refund Evidence",
     "summary": "Record return reasons and trace each refund line to its original sale",
-    "version": "19.0.1.0.0",
+    "version": "19.0.1.0.1",
     "category": "Point of Sale",
-    "author": "Cyfr Sp. z o.o.",
+    "author": "Digicyfr (CYFR Sp. z o.o.)",
     "website": "https://digicyfr.com",
     "license": "LGPL-3",
+    "images": ["static/description/main_screenshot.png"],
     "depends": ["point_of_sale"],
     "data": [
         "security/ir.model.access.csv",

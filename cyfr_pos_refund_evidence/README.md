@@ -12,7 +12,7 @@ The queue opens with an Incomplete filter. Clear it to see completed cases. Open
 
 Only orders explicitly marked `is_refund=True` are captured. Standalone negative-quantity orders without that native flag are excluded. The addon does not change refund authorization, tender, taxes, stock moves, invoice or accounting logic. It does not add a cashier popup, offline capture, attachments or automatic accusations. A case appears after native refund persistence; it is not a refund prerequisite.
 
-Dependency: `point_of_sale` only. Version `19.0.1.0.0`, LGPL-3. Tested against pinned Odoo 19.0-20260908 Community image. Enterprise runtime is unverified unless separately stated in release evidence.
+Dependency: `point_of_sale` only. Version `19.0.1.0.1`, LGPL-3. Tested against pinned Odoo 19.0-20260908 Community image. Enterprise runtime is unverified unless separately stated in release evidence.
 
 ## Data and retention
 

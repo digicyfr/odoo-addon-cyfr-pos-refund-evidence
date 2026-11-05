@@ -1,1 +1,26 @@
-<section class="oe_container"><h2>POS Refund Evidence</h2><p>Review why a native POS refund happened, with each refund line linked to its original sale.</p><p>Company-scoped reasons, an incomplete-case queue and no change to Odoo refund accounting or stock.</p></section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>POS Refund Evidence for Odoo 19</title>
+</head>
+<body>
+  <section class="container">
+    <h1>POS Refund Evidence</h1>
+    <p class="lead">Record a controlled reason and condition for each native POS refund, with line-level links to its original sale.</p>
+    <p>Free, open-source Odoo 19 addon (LGPL-3). Requires the standard <code>point_of_sale</code> module.</p>
+    <h2>What it does</h2>
+    <ul>
+      <li>Create one backend evidence case per native refund order, even when synchronization repeats.</li>
+      <li>Review incomplete cases, select a managed reason and record condition and evidence author.</li>
+      <li>Open each linked original sale line and order; managers can group cases by reason, POS, date and company.</li>
+      <li>Keep refund payment, tax, stock and accounting in Odoo’s native flow; use English and Polish guides and screens.</li>
+    </ul>
+    <h2>See it in Odoo</h2>
+    <p>Open Point of Sale → Orders → Refund Evidence after processing a normal Odoo POS refund.</p>
+    <img class="img-fluid" src="main_screenshot.png" width="1440" height="900" alt="Completed POS refund evidence case in Odoo 19 showing reason, condition, author and original sale line">
+    <h2>Compatibility and scope</h2>
+    <p>Tested on Odoo 19 Community as a backend workflow. No cashier popup, offline capture or attachment upload is included. Multi-origin provenance is tested at model level because native POS sync rejects multi-origin refunds. Enterprise compatibility and a POS frontend browser flow remain unverified.</p>
+  </section>
+</body>
+</html>
